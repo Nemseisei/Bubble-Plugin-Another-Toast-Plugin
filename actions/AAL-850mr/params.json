@@ -1,0 +1,78 @@
+{
+    "category": "plugins",
+    "display": "Toast",
+    "fields": {
+        "AAM": {
+            "caption": "Text",
+            "default_val": "Hello World",
+            "doc": "Message to be displayed in the toast\t",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Duration",
+            "default_val": 3000,
+            "doc": "\tDuration for which the toast should be displayed. -1 for permanent toast",
+            "editor": "DynamicValue",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "Gravity",
+            "default_val": "top",
+            "doc": "To show the toast from top or bottom\t",
+            "editor": "Dropdown",
+            "name": "gravity",
+            "options": "top,bottom",
+            "rank": 2
+        },
+        "AAQ": {
+            "caption": "Position",
+            "default_val": "left",
+            "doc": "To show the toast on left or right\t",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "left,right,center",
+            "rank": 3
+        },
+        "AAR": {
+            "caption": "Close",
+            "default_val": "true",
+            "doc": "To show the close icon or not\t",
+            "editor": "Dropdown",
+            "name": "close",
+            "options": "true,false",
+            "rank": 4
+        },
+        "AAS": {
+            "caption": "Stop on Focus",
+            "default_val": "true",
+            "doc": "To stop timer when hovered over the toast (Only if duration is set)",
+            "editor": "Dropdown",
+            "name": "stoponfocus",
+            "options": "true,false",
+            "rank": 5
+        },
+        "AAT": {
+            "caption": "Avatar",
+            "default_val": "",
+            "doc": "Image/icon to be shown before text",
+            "editor": "DynamicValue",
+            "name": "avatar",
+            "rank": 6,
+            "value": "image"
+        },
+        "AAU": {
+            "caption": "Background Color",
+            "default_val": "rgba(0,0,0,1)",
+            "doc": "Sets the background color of the toast",
+            "editor": "Color",
+            "name": "backgroundcolor",
+            "rank": 7
+        }
+    },
+    "type": "client_side"
+}

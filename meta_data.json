@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "technical"
+    },
+    "description": "Hey, i'm Toasty and i just another toast notification plugin!\n\nEnjoy-me!",
+    "image": "//s3.amazonaws.com/appforest_uf/f1665160061207x111698880542401520/cute-happy-funny-toast-cartoon-character-illustration-icon-design-isolated_92289-1130.webp",
+    "license": "open_source",
+    "link": "https://sweetalert.js.org/guides/ ",
+    "name": "Another Toast Plugin",
+    "plugin_instructions": "For use me, you only need to install and call the actions to display the notifications."
+}

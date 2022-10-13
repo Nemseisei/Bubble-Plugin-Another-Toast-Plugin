@@ -1,0 +1,95 @@
+{
+    "category": "plugins",
+    "display": "Toast Redirect",
+    "fields": {
+        "AAW": {
+            "caption": "Text",
+            "default_val": "Hello World",
+            "doc": "Message to be displayed in the toast\t",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "Duration",
+            "default_val": 3000,
+            "doc": "Duration for which the toast should be displayed. -1 for permanent toast",
+            "editor": "DynamicValue",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAY": {
+            "caption": "Gravity",
+            "default_val": "top",
+            "doc": "To show the toast from top or bottom",
+            "editor": "Dropdown",
+            "name": "gravity",
+            "options": "top,bottom",
+            "rank": 2
+        },
+        "AAZ": {
+            "caption": "Position",
+            "default_val": "left",
+            "doc": "To show the toast on left or right",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "left,right,center",
+            "rank": 3
+        },
+        "AAa": {
+            "caption": "Close",
+            "default_val": "true",
+            "doc": "To show the close icon or not",
+            "editor": "Dropdown",
+            "name": "close",
+            "options": "true,false",
+            "rank": 4
+        },
+        "AAb": {
+            "caption": "Stop on Focus",
+            "default_val": "true",
+            "doc": "To stop timer when hovered over the toast (Only if duration is set)",
+            "editor": "Dropdown",
+            "name": "stoponfocus",
+            "options": "true,false",
+            "rank": 5
+        },
+        "AAc": {
+            "caption": "Avatar",
+            "default_val": "",
+            "doc": "Image/icon to be shown before text",
+            "editor": "DynamicValue",
+            "name": "avatar",
+            "rank": 6,
+            "value": "image"
+        },
+        "AAd": {
+            "caption": "Background Color",
+            "default_val": "rgba(0,0,0,1)",
+            "doc": "Sets the background color of the toast",
+            "editor": "Color",
+            "name": "backgroundcolor",
+            "rank": 7
+        },
+        "AAf": {
+            "caption": "Destination",
+            "doc": "URL to which the browser should be navigated on click of the toast\t",
+            "editor": "DynamicValue",
+            "name": "destination",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "New Window",
+            "default_val": "true",
+            "doc": "Decides whether the destination should be opened in a new window or not",
+            "editor": "Dropdown",
+            "name": "new_window",
+            "options": "true,false",
+            "rank": 9
+        }
+    },
+    "type": "client_side"
+}
